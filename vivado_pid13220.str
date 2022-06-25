@@ -1,0 +1,349 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 13220
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed May 04 03:39:50 IST 2022
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	D:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	dhritiman
+User home directory: C:/Users/dhritiman
+User working directory: C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2020.2
+RDI_DATADIR: D:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: D:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/dhritiman/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/dhritiman/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/dhritiman/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/vivado.log
+Vivado journal file location: 	C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/vivado.jou
+Engine tmp dir: 	C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/.Xil/Vivado-13220-MSI
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: D:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2020.2
+XILINX_VIVADO: D:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,012 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\dhritiman\Downloads\Mini_Proj_report_GRP1\pipelined_recreated\pipelined_recreated.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/BITS GOA/third_year/3-2/CompArch/MyProjMIPS/pipelined_recreated' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,012 MB. GUI used memory: 54 MB. Current time: 5/4/22, 3:39:51 AM IST
+// [GUI Memory]: 61 MB (+61611kb) [00:00:13]
+// [Engine Memory]: 1,012 MB (+909670kb) [00:00:13]
+// [GUI Memory]: 80 MB (+16170kb) [00:00:13]
+// [GUI Memory]: 102 MB (+18868kb) [00:00:14]
+// WARNING: HEventQueue.dispatchEvent() is taking  4415 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 1007.184 ; gain = 0.000 
+// Project name: pipelined_recreated; location: C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated; part: xc7z010iclg225-1L
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 135 MB (+29235kb) [00:00:29]
+// Elapsed time: 16 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sys (sys.v)]", 1); // D
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sys (sys.v)]", 1); // D
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (cr): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cr):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7z010iclg225-1L Top: sys 
+// TclEventType: ELABORATE_START
+// HMemoryUtils.trashcanNow. Engine heap size: 1,232 MB. GUI used memory: 74 MB. Current time: 5/4/22, 3:40:31 AM IST
+// TclEventType: ELABORATE_FINISH
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,345 MB. GUI used memory: 74 MB. Current time: 5/4/22, 3:40:36 AM IST
+// [Engine Memory]: 1,345 MB (+295916kb) [00:00:57]
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 0.5s
+// [Engine Memory]: 1,414 MB (+1490kb) [00:00:58]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,485 MB (+826kb) [00:00:59]
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1683 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7z010iclg225-1L 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1294.852 ; gain = 249.488 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'sys' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/new/sys.v:22] INFO: [Synth 8-6157] synthesizing module 'instructionMemory' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/instructionMemory.v:23] 
+// Tcl Message: 	Parameter propDelay bound to: 2 - type: integer  
+// Tcl Message: 	Parameter width bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'mux' (5#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/mux.v:23] INFO: [Synth 8-6157] synthesizing module 'mux__parameterized0' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/mux.v:23] 
+// Tcl Message: 	Parameter width bound to: 5 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'mux__parameterized0' (5#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/mux.v:23] INFO: [Synth 8-6157] synthesizing module 'pipeline' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] 
+// Tcl Message: 	Parameter Width bound to: 74 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'pipeline' (6#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'RegFile' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/registerFile.v:23] 
+// Tcl Message: 	Parameter propDealay bound to: 3 - type: integer  
+// Tcl Message: 	Parameter shiftAmnt bound to: 2 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'shiftLeft' (9#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/shiftLeft.v:23] INFO: [Synth 8-6157] synthesizing module 'pipeline__parameterized0' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] 
+// Tcl Message: 	Parameter Width bound to: 281 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'pipeline__parameterized0' (9#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'Mux4_1' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/new/Mux4_1.v:23] 
+// Tcl Message: 	Parameter width bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-226] default block is never used [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/new/Mux4_1.v:35] INFO: [Synth 8-6155] done synthesizing module 'Mux4_1' (10#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/new/Mux4_1.v:23] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'forwardingUnit' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/new/forwardingUnit.v:23] INFO: [Synth 8-6155] done synthesizing module 'forwardingUnit' (11#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/new/forwardingUnit.v:23] INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/alu.v:23] 
+// Tcl Message: 	Parameter propDealay bound to: 5 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'alu' (12#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/alu.v:23] INFO: [Synth 8-6157] synthesizing module 'pipeline__parameterized1' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] 
+// Tcl Message: 	Parameter Width bound to: 72 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'pipeline__parameterized1' (12#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] INFO: [Synth 8-6157] synthesizing module 'dataMemory' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/dataMemory.v:22] 
+// Tcl Message: 	Parameter propDelay bound to: 2 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'dataMemory' (13#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/dataMemory.v:22] INFO: [Synth 8-6157] synthesizing module 'pipeline__parameterized2' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] 
+// Tcl Message: 	Parameter Width bound to: 269 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'pipeline__parameterized2' (13#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'sys' (14#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/new/sys.v:22] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1367.852 ; gain = 322.488 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1367.852 ; gain = 322.488 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1367.852 ; gain = 322.488 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1367.852 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1478.496 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1596.090 ; gain = 550.727 
+// Tcl Message: 41 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1596.090 ; gain = 588.906 
+// 'dV' command handler elapsed time: 22 seconds
+// Elapsed time: 21 seconds
+dismissDialog("Open Elaborated Design"); // bz
+// [GUI Memory]: 155 MB (+14784kb) [00:02:13]
+// Elapsed time: 74 seconds
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 67, 258, 1055, 514, false, false, false, true, false); // f - Popup Trigger
+// PAPropertyPanels.initPanels (MemoryWritepIFID) elapsed time: 0.2s
+// Elapsed time: 194 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aK
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sys (sys.v)]", 1); // D
+// Elapsed time: 23 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sys (sys.v)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sys (sys.v)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// Elapsed time: 19 seconds
+selectCodeEditor("sys.v", 200, 263); // bP
+selectCodeEditor("sys.v", 200, 263, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 34 seconds
+selectCodeEditor("sys.v", 162, 356); // bP
+selectCodeEditor("sys.v", 162, 356, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 180, 340); // bP
+selectCodeEditor("sys.v", 180, 340, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 44 seconds
+selectCodeEditor("sys.v", 247, 289); // bP
+selectCodeEditor("sys.v", 247, 289, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 211, 255); // bP
+selectCodeEditor("sys.v", 211, 255, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 207, 247); // bP
+selectCodeEditor("sys.v", 207, 247, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 130, 269); // bP
+selectCodeEditor("sys.v", 144, 265); // bP
+selectCodeEditor("sys.v", 144, 265, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 158, 224); // bP
+selectCodeEditor("sys.v", 158, 224, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 187, 115); // bP
+selectCodeEditor("sys.v", 187, 115, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 143, 292); // bP
+selectCodeEditor("sys.v", 143, 291, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 207, 324); // bP
+selectCodeEditor("sys.v", 207, 324, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 191, 308); // bP
+selectCodeEditor("sys.v", 191, 308, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 40 seconds
+selectCodeEditor("sys.v", 170, 161); // bP
+selectCodeEditor("sys.v", 170, 161, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 23 seconds
+selectCodeEditor("sys.v", 150, 253); // bP
+selectCodeEditor("sys.v", 152, 244); // bP
+selectCodeEditor("sys.v", 152, 244, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // m
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 515, 291, 1055, 514, false, false, false, true, false); // f - Popup Trigger
+// [GUI Memory]: 164 MB (+652kb) [00:15:37]
+// Elapsed time: 359 seconds
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 290, 176, 1055, 514, false, false, false, true, false); // f - Popup Trigger
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sys.v", 2); // m
+selectCodeEditor("sys.v", 161, 135); // bP
+selectCodeEditor("sys.v", 112, 121); // bP
+selectCodeEditor("sys.v", 112, 121, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 82, 265); // bP
+selectCodeEditor("sys.v", 82, 265, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 136, 261); // bP
+selectCodeEditor("sys.v", 136, 262, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 145, 278); // bP
+selectCodeEditor("sys.v", 145, 278, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 147, 263); // bP
+selectCodeEditor("sys.v", 147, 263, false, false, false, false, true); // bP - Double Click
+// Elapsed time: 47 seconds
+selectCodeEditor("sys.v", 70, 221); // bP
+selectCodeEditor("sys.v", 71, 222, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 72, 223); // bP
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sys (sys.v)]", 1); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sys (sys.v), muxB : Mux4_1 (Mux4_1.v)]", 16, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sys (sys.v), muxB : Mux4_1 (Mux4_1.v)]", 16, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("Mux4_1.v", 119, 163); // bP
+selectCodeEditor("Mux4_1.v", 119, 163, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("Mux4_1.v", 159, 164); // bP
+selectCodeEditor("Mux4_1.v", 159, 164, false, false, false, false, true); // bP - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sys.v", 2); // m
+// Elapsed time: 78 seconds
+selectCodeEditor("sys.v", 220, 132); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux4_1.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sys.v", 2); // m
+// Elapsed time: 54 seconds
+selectCodeEditor("sys.v", 179, 291); // bP
+selectCodeEditor("sys.v", 180, 290, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 46, 34); // bP
+typeControlKey((HResource) null, "sys.v", 'c'); // bP
+selectCodeEditor("sys.v", 172, 203); // bP
+typeControlKey((HResource) null, "sys.v", 'v'); // bP
+selectCodeEditor("sys.v", 196, 220); // bP
+selectCodeEditor("sys.v", 184, 224); // bP
+selectCodeEditor("sys.v", 184, 224, false, false, false, false, true); // bP - Double Click
+selectCodeEditor("sys.v", 202, 239); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Mux4_1.v", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // m
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h
+// bz (cr):  Reloading : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,549 MB. GUI used memory: 108 MB. Current time: 5/4/22, 3:59:37 AM IST
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1681.660 ; gain = 59.148 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// [Engine Memory]: 1,628 MB (+71948kb) [00:20:00]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,633 MB. GUI used memory: 93 MB. Current time: 5/4/22, 3:59:41 AM IST
+// Engine heap size: 1,633 MB. GUI used memory: 93 MB. Current time: 5/4/22, 3:59:41 AM IST
+// WARNING: HEventQueue.dispatchEvent() is taking  1219 ms.
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'sys' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/new/sys.v:22] INFO: [Synth 8-6157] synthesizing module 'instructionMemory' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/instructionMemory.v:23] 
+// Tcl Message: 	Parameter propDelay bound to: 2 - type: integer  
+// Tcl Message: 	Parameter width bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'mux' (5#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/mux.v:23] INFO: [Synth 8-6157] synthesizing module 'mux__parameterized0' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/mux.v:23] 
+// Tcl Message: 	Parameter width bound to: 5 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'mux__parameterized0' (5#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/mux.v:23] INFO: [Synth 8-6157] synthesizing module 'pipeline' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] 
+// Tcl Message: 	Parameter Width bound to: 74 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'pipeline' (6#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'RegFile' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/registerFile.v:23] 
+// Tcl Message: 	Parameter propDealay bound to: 3 - type: integer  
+// Tcl Message: 	Parameter shiftAmnt bound to: 2 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'shiftLeft' (9#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/shiftLeft.v:23] INFO: [Synth 8-6157] synthesizing module 'pipeline__parameterized0' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] 
+// Tcl Message: 	Parameter Width bound to: 281 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'pipeline__parameterized0' (9#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'Mux4_1' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/new/Mux4_1.v:23] 
+// Tcl Message: 	Parameter width bound to: 32 - type: integer  
+// Tcl Message: 	Parameter propDealay bound to: 5 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'alu' (12#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/alu.v:23] INFO: [Synth 8-6157] synthesizing module 'pipeline__parameterized1' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] 
+// Tcl Message: 	Parameter Width bound to: 72 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'pipeline__parameterized1' (12#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] INFO: [Synth 8-6157] synthesizing module 'dataMemory' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/dataMemory.v:22] 
+// Tcl Message: 	Parameter propDelay bound to: 2 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'dataMemory' (13#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/dataMemory.v:22] INFO: [Synth 8-6157] synthesizing module 'pipeline__parameterized2' [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] 
+// Tcl Message: 	Parameter Width bound to: 269 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'pipeline__parameterized2' (13#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/imports/pipeline.v:23] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'sys' (14#1) [C:/Users/dhritiman/Downloads/Mini_Proj_report_GRP1/pipelined_recreated/pipelined_recreated.srcs/sources_1/new/sys.v:22] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1722.922 ; gain = 100.410 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1745.605 ; gain = 123.094 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1745.605 ; gain = 123.094 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,633 MB. GUI used memory: 81 MB. Current time: 5/4/22, 3:59:43 AM IST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2306 ms.
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1750.543 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1750.543 ; gain = 128.031 
+// Elapsed time: 10 seconds
+dismissDialog("Reloading"); // bz
+// Elapsed time: 23 seconds
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 392, 77, 1055, 514, false, false, false, true, false); // f - Popup Trigger

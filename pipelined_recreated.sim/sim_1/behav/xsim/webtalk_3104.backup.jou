@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Apr 25 17:35:27 2022
+# Process ID: 3104
+# Current directory: D:/BITS GOA/third_year/3-2/CompArch/MyProjMIPS/pipelined_recreated/pipelined_recreated.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/BITS GOA/third_year/3-2/CompArch/MyProjMIPS/pipelined_recreated/pipelined_recreated.sim/sim_1/behav/xsim/xsim.dir/sys_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/BITS GOA/third_year/3-2/CompArch/MyProjMIPS/pipelined_recreated/pipelined_recreated.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/BITS GOA/third_year/3-2/CompArch/MyProjMIPS/pipelined_recreated/pipelined_recreated.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/BITS -notrace

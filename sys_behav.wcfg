@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sys_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sys" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="980605fs"></ZoomStartTime>
+      <ZoomEndTime time="1143906fs"></ZoomEndTime>
+      <Cursor1Time time="1026928fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="40" />
+   <wvobject fp_name="/sys/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/ID_Ex_Pipeline/inData" type="array">
+      <obj_property name="ElementShortName">inData[280:0]</obj_property>
+      <obj_property name="ObjectShortName">inData[280:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/ID_Ex_Pipeline/outData" type="array">
+      <obj_property name="ElementShortName">outData[280:0]</obj_property>
+      <obj_property name="ObjectShortName">outData[280:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/frwrdU/Rsreg" type="array">
+      <obj_property name="ElementShortName">Rsreg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rsreg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/frwrdU/Rtreg" type="array">
+      <obj_property name="ElementShortName">Rtreg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rtreg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/frwrdU/frwardA" type="array">
+      <obj_property name="ElementShortName">frwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">frwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/frwrdU/frwardB" type="array">
+      <obj_property name="ElementShortName">frwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">frwardB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/instrAddress" type="array">
+      <obj_property name="ElementShortName">instrAddress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instrAddress[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/currInstructionpIFID" type="array">
+      <obj_property name="ElementShortName">currInstructionpIFID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">currInstructionpIFID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/ALUOppIFID" type="array">
+      <obj_property name="ElementShortName">ALUOppIFID[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOppIFID[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/ALUOppIDEX" type="array">
+      <obj_property name="ElementShortName">ALUOppIDEX[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOppIDEX[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group262" type="group">
+      <obj_property name="label">RegFile</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys/regFile/ReadAddress1" type="array">
+         <obj_property name="ElementShortName">ReadAddress1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadAddress1[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/regFile/ReadAddress2" type="array">
+         <obj_property name="ElementShortName">ReadAddress2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadAddress2[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/regFile/WriteAddress" type="array">
+         <obj_property name="ElementShortName">WriteAddress[4:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteAddress[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/regFile/WriteData" type="array">
+         <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/regFile/RegWriteEn" type="logic">
+         <obj_property name="ElementShortName">RegWriteEn</obj_property>
+         <obj_property name="ObjectShortName">RegWriteEn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/regFile/ReadData1" type="array">
+         <obj_property name="ElementShortName">ReadData1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadData1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/regFile/ReadData2" type="array">
+         <obj_property name="ElementShortName">ReadData2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ReadData2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/regFile/t0" type="array">
+         <obj_property name="ElementShortName">t0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">t0[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group288" type="group">
+      <obj_property name="label">Control Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sys/control/regWrite" type="logic">
+         <obj_property name="ElementShortName">regWrite</obj_property>
+         <obj_property name="ObjectShortName">regWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/control/regDst" type="logic">
+         <obj_property name="ElementShortName">regDst</obj_property>
+         <obj_property name="ObjectShortName">regDst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/control/ALUSrc" type="logic">
+         <obj_property name="ElementShortName">ALUSrc</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/control/ALUOp" type="array">
+         <obj_property name="ElementShortName">ALUOp[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOp[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/control/MemWrite" type="logic">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/control/MemToReg" type="logic">
+         <obj_property name="ElementShortName">MemToReg</obj_property>
+         <obj_property name="ObjectShortName">MemToReg</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group276" type="group">
+      <obj_property name="label">ALUSrcmux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sys/ALUSrcMUX/in0" type="array">
+         <obj_property name="ElementShortName">in0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/ALUSrcMUX/in1" type="array">
+         <obj_property name="ElementShortName">in1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/ALUSrcMUX/control" type="logic">
+         <obj_property name="ElementShortName">control</obj_property>
+         <obj_property name="ObjectShortName">control</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/ALUSrcMUX/muxout" type="array">
+         <obj_property name="ElementShortName">muxout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">muxout[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group270" type="group">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sys/alu/op1" type="array">
+         <obj_property name="ElementShortName">op1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">op1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/alu/op2" type="array">
+         <obj_property name="ElementShortName">op2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">op2[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/alu/aluOut" type="array">
+         <obj_property name="ElementShortName">aluOut[31:0]</obj_property>
+         <obj_property name="ObjectShortName">aluOut[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/alu/ALUOp" type="array">
+         <obj_property name="ElementShortName">ALUOp[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOp[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/alu/zeroFlag" type="logic">
+         <obj_property name="ElementShortName">zeroFlag</obj_property>
+         <obj_property name="ObjectShortName">zeroFlag</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/alu/carry" type="logic">
+         <obj_property name="ElementShortName">carry</obj_property>
+         <obj_property name="ObjectShortName">carry</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group282" type="group">
+      <obj_property name="label">RegDstDatamux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sys/RegDestDataMux/in0" type="array">
+         <obj_property name="ElementShortName">in0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in0[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/RegDestDataMux/in1" type="array">
+         <obj_property name="ElementShortName">in1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">in1[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/RegDestDataMux/control" type="logic">
+         <obj_property name="ElementShortName">control</obj_property>
+         <obj_property name="ObjectShortName">control</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sys/RegDestDataMux/muxout" type="array">
+         <obj_property name="ElementShortName">muxout[31:0]</obj_property>
+         <obj_property name="ObjectShortName">muxout[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/sys/muxA/in0" type="array">
+      <obj_property name="ElementShortName">in0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/muxA/in1" type="array">
+      <obj_property name="ElementShortName">in1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/muxA/in2" type="array">
+      <obj_property name="ElementShortName">in2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/muxA/in3" type="array">
+      <obj_property name="ElementShortName">in3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/muxA/control" type="array">
+      <obj_property name="ElementShortName">control[1:0]</obj_property>
+      <obj_property name="ObjectShortName">control[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/muxA/muxout" type="array">
+      <obj_property name="ElementShortName">muxout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">muxout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/muxA/width" type="array">
+      <obj_property name="ElementShortName">width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/muxB/in0" type="array">
+      <obj_property name="ElementShortName">in0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/muxB/in1" type="array">
+      <obj_property name="ElementShortName">in1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/muxB/in2" type="array">
+      <obj_property name="ElementShortName">in2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/muxB/in3" type="array">
+      <obj_property name="ElementShortName">in3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/muxB/control" type="array">
+      <obj_property name="ElementShortName">control[1:0]</obj_property>
+      <obj_property name="ObjectShortName">control[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/muxB/muxout" type="array">
+      <obj_property name="ElementShortName">muxout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">muxout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/muxB/width" type="array">
+      <obj_property name="ElementShortName">width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">width[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/frwrdU/Rsreg" type="array">
+      <obj_property name="ElementShortName">Rsreg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rsreg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/frwrdU/Rtreg" type="array">
+      <obj_property name="ElementShortName">Rtreg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rtreg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/frwrdU/destRegEXMEM" type="array">
+      <obj_property name="ElementShortName">destRegEXMEM[4:0]</obj_property>
+      <obj_property name="ObjectShortName">destRegEXMEM[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/frwrdU/destRegMEMWB" type="array">
+      <obj_property name="ElementShortName">destRegMEMWB[4:0]</obj_property>
+      <obj_property name="ObjectShortName">destRegMEMWB[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/frwrdU/WB_EN_EXMEM" type="logic">
+      <obj_property name="ElementShortName">WB_EN_EXMEM</obj_property>
+      <obj_property name="ObjectShortName">WB_EN_EXMEM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/frwrdU/WB_EN_MEMWB" type="logic">
+      <obj_property name="ElementShortName">WB_EN_MEMWB</obj_property>
+      <obj_property name="ObjectShortName">WB_EN_MEMWB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/frwrdU/frwardA" type="array">
+      <obj_property name="ElementShortName">frwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">frwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sys/frwrdU/frwardB" type="array">
+      <obj_property name="ElementShortName">frwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">frwardB[1:0]</obj_property>
+   </wvobject>
+</wave_config>
